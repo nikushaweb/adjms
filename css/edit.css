@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'BPG Arial Caps';
+    src: url('../fonts/bpg-arial-caps-webfont.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/bpg-arial-caps-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/bpg-arial-caps-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/bpg-arial-caps-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/bpg-arial-caps-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/bpg-arial-caps-webfont.svg#bpg_arial_capsregular') format('svg');
+    /* Legacy iOS */
+}
+
+/* My-swiper */
+.swiper-button-prev,
+.swiper-button-next {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    outline: none;
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next{
+    left: 75px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23fff'%2F%3E%3C%2Fsvg%3E");
+    background-size: 20px 20px;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev{
+    right: 75px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23fff'%2F%3E%3C%2Fsvg%3E");
+    background-size: 20px 20px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction{
+    bottom: 30px;
+}
+.swiper-pagination-bullet{
+    background-color: #b69b9f;
+    opacity: .5;
+    outline: none;
+    margin: 0 15px;
+}
+.swiper-pagination-bullet-active{
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid #e83032;
+    vertical-align: middle;
+    opacity: 1;
+    outline: none;
+}
+/* .news-over-slider{
+    overflow: inherit;
+    position: relative;
+} */
